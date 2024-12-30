@@ -1,4 +1,4 @@
-package com.mayad7474.cleane_commerce.ui.theme
+package com.mayad7474.cleane_commerce.app.theme
 
 import android.app.Activity
 import android.os.Build

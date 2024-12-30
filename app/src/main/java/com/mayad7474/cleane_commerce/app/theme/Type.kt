@@ -1,4 +1,4 @@
-package com.mayad7474.cleane_commerce.ui.theme
+package com.mayad7474.cleane_commerce.app.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,5 @@
 [versions]
+accompanistSwiperefresh = "0.36.0"
 agp = "8.7.3"
 kotlin = "2.1.0"
 coreKtx = "1.15.0"
@@ -54,7 +55,7 @@ kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-t
 androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltAndroidx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
-lottie = { module = "com.airbnb.android:lottie", version = "6.6.2"}
+lottie = { module = "com.airbnb.android:lottie-compose", version = "6.6.2"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.kapt)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
+    id("kotlin-parcelize")
 }
 
 android {
@@ -62,6 +63,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // lottie with compose
+    implementation(libs.lottie)
+
+
     // Hilt - dependency injection
     implementation(libs.hilt.android)
     // hilt kapt - annotation processor — hilt ksp is in alpha
@@ -102,6 +107,5 @@ dependencies {
     // hilt view model injection
     implementation(libs.androidx.hilt.navigation.compose)
 
-    // lottie with compose
-    implementation(libs.lottie)
+
 }
