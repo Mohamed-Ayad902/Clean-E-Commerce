@@ -22,6 +22,8 @@ room = "2.6.1"
 ksp = "2.1.0-1.0.29"
 kotlinxCoroutinesTest = "1.9.0"
 hiltAndroidx = "1.2.0"
+datastorePreferencesCoreJvm = "1.1.1"
+gson = "2.10.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -56,6 +58,9 @@ androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-ru
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltAndroidx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 lottie = { module = "com.airbnb.android:lottie-compose", version = "6.6.2"}
+androidx-datastore-preferences-core-jvm = { group = "androidx.datastore", name = "datastore-preferences-core-jvm", version.ref = "datastorePreferencesCoreJvm" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version = "1.1.1" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

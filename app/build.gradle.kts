@@ -42,6 +42,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
@@ -55,6 +56,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.datastore.preferences.core.jvm)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -65,7 +67,6 @@ dependencies {
 
     // lottie with compose
     implementation(libs.lottie)
-
 
     // Hilt - dependency injection
     implementation(libs.hilt.android)
@@ -88,6 +89,7 @@ dependencies {
 
     // datastore - make type safe local storage
     implementation(libs.androidx.datastore)
+    implementation(libs.datastore.preferences)
 
     // room - local database
     implementation(libs.androidx.room.runtime)
@@ -107,5 +109,7 @@ dependencies {
     // hilt view model injection
     implementation(libs.androidx.hilt.navigation.compose)
 
+    // gson
+    implementation(libs.gson)
 
 }

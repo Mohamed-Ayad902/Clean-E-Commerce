@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Clean E-Commerce</string>
+    <string name="check_your_network_connection">Please check your network connection.</string>
+    <string name="bad_request">Bad Request. Please check your input.</string>
+    <string name="unauthorized">You are not authorized to access this resource.</string>
+    <string name="forbidden">Access to this resource is forbidden.</string>
+    <string name="not_found">The requested resource was not found.</string>
+    <string name="internal_server_error">Internal server error. Please try again later.</string>
+    <string name="unknown_error">An unknown error occurred.</string>
+    <string name="invalid_input">Invalid input provided.</string>
+    <string name="generic_server_error">A server error occurred. Please try again later.</string>
 </resources>
