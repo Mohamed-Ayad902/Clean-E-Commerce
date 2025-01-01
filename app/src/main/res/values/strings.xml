@@ -9,4 +9,27 @@
     <string name="unknown_error">An unknown error occurred.</string>
     <string name="invalid_input">Invalid input provided.</string>
     <string name="generic_server_error">A server error occurred. Please try again later.</string>
+
+    <string name="field_cannot_be_empty">Field cannot be empty</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="password_too_short">Password must be at least 8 characters</string>
+    <string name="welcome_back">Welcome back 👋</string>
+    <string name="clear">Clear</string>
+    <string name="lets_you_in">Let\'s you in ➡\uFE0F</string>
+    <string name="login_description">Login and check out hot items for you.</string>
+    <string name="register_description">Join us and enjoy our services.</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="remember_me">Remember Me</string>
+
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="repeat_password">Repeat Password</string>
+
 </resources>

@@ -39,12 +39,12 @@ fun MainNavigation() {
             composable<AuthenticationScreens.Login> {
                 LoginScreen(
                     modifier = Modifier.background(MaterialTheme.colorScheme.background),
-                    onLoginClicked = {
+                    performLogin = {
                         navController.navigate(MainGraph.HomeGraph) {
                             popUpTo(MainGraph.AuthenticationGraph) { inclusive = true }
                         }
                     },
-                    onRegisterCLicked = {
+                    performRegister = {
                         navController.navigate(AuthenticationScreens.Register)
                     },
                     onForgotPasswordClicked = {
